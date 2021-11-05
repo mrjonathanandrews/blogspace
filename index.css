@@ -1,0 +1,41 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: goldenrod;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav > h3 {
+    margin: 0;
+}
+
+#blog-list {
+    padding: 10px;
+}
+    
+form {   
+    padding: 60px 10px 10px;
+    display: grid;
+    background-color: cornsilk;
+}
+
+#post-title,
+textarea {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
