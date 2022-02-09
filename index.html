@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
         <meta charset="UTF-8">
 
@@ -12,21 +12,25 @@
 
         <section>
 
-            <nav>
-                <h3>BlogSpace</h3>
-            </nav>
-
-            <form id="new-post">
-                <label for="post-title">Title:</label>
-                <input type="text" id="post-title" name="post-title">
-
-                <label for="post-body">Body:</label>
-                <textarea id="post-body"></textarea>
+            <div class="container">
                 
-                <button>Post:</button>
-            </form>
+                <nav>
+                    <h3>BlogSpace</h3>
+                </nav>
 
-            <div id="blog-list"></div>
+                <form id="new-post">
+                    <label for="post-title">Title:</label>
+                    <input type="text" id="post-title" name="post-title">
+
+                    <label for="post-body">Body:</label>
+                    <textarea id="post-body"></textarea>
+                    
+                    <button>Post:</button>
+                </form>
+
+                <div id="blog-list"></div>
+
+            </div>
 
         </section>
         <script src="index.js"></script>

@@ -9,7 +9,7 @@ function renderPosts() {
         html += `
             <h3>${post.title}</h3>
             <p>${post.body}</p>
-            <hr>
+            <hr class="blog-bottom">
         `
     }
     document.getElementById("blog-list").innerHTML = html
